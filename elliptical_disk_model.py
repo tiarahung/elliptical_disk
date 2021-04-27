@@ -27,11 +27,11 @@ def int_func_op(phi, xi, X, q, V_sig, inc, ecc, phi0, intnorm):
     xi : float
         a dimensionless distance from the black hole in units of Rg.
     X : float
-        velocity in units of km/s.
+        velocity in units of c (speed of light).
     q : float
         the power-law index of surface emissivity.
     V_sig : float
-        velocity broadening parameter.
+        velocity broadening parameter in km/s.
     inc : float
         inclination angle in radians.
     ecc : float
